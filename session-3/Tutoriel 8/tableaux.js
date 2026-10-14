@@ -14,7 +14,7 @@ console.log(ages.length); // Affichez la tailcdle totale du tableau
 let lastindex =  ages.length-1;
 console.log(ages[lastindex]); // Affichez la toute dernière valeur
 
-//2.3
+//2.3 Livrable
 
 let notes = [12, 15, 8, 17, 10, 14];
 
