@@ -23,4 +23,4 @@ for(let i = sequence.length-1; i >=0; i--){
 }
 console.log("Décollage !");
 
-// L'index de départ doit être sequence.length - 1, car les index commencent à 0 et le dernier élément se trouve à cet index.cd ..\..
+// L'index de départ doit être sequence.length - 1, car les index commencent à 0 et le dernier élément se trouve à cet index.
