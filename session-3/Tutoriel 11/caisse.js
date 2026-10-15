@@ -18,13 +18,13 @@ sommePairs = 0;
 
 for(i = 0; i < nombres.length; i++){
     if(nombres[i] % 2 === 0){
-        sommePairs = sommePairs + nombres[i];
+        sommePairs += nombres[i];
     }
 }
 
 console.log(sommePairs);
 
-// 2.3.
+// 2.3. Livrable
 
 let panier = [15, 42, 5, 89, 12, 50, 8];
 let total = 0;
@@ -36,7 +36,7 @@ for(i = 0; i < panier.length; i++){
     
     if(panier[i] >= 20){
         counter++;
-        montant = montant + panier[i];
+        montant += panier[i];
     }
 }
 
