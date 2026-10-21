@@ -1,23 +1,25 @@
-🖥️ Le cycle local complet
+## 🖥️ Le cycle local complet
 
-$ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+**$** `git status`
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+```text
+modifié : commandes.md
+```
 
-$ git add commandes.md
+**$** `git add commandes.md`
 
-$ git commit -m "Ajout du titre principal dans commandes.md"
+**$** `git commit -m "Ajout du titre principal dans commandes.md"`
 
+```text
 [main 1d2d0b8] Ajout du titre principal dans commandes.md
-
 1 file changed, 1 insertion(+)
+```
 
+**$** `git status`
 
-$ git status
-
+```text
 Sur la branche main
+rien à valider, la copie de travail est propre
+```
 
-rien à valider, la copie de travail est propre 
+✅ **Cycle terminé**
