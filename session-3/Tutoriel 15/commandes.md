@@ -3,23 +3,25 @@
 **$** `git status`
 
 ```text
-modifié : commandes.md
+modified: index.html
 ```
 
-**$** `git add commandes.md`
+**$** ` git add index.html`
 
-**$** `git commit -m "Ajout du titre principal dans commandes.md"`
+**$** `git commit -m "Added main title to index.html" `
 
 ```text
-[main 1d2d0b8] Ajout du titre principal dans commandes.md
+[main 1d2d0b8] Added the main title to index.html
+
 1 file changed, 1 insertion(+)
 ```
 
 **$** `git status`
 
 ```text
-Sur la branche main
-rien à valider, la copie de travail est propre
+On the main branch
+
+Nothing to validate, the working copy is clean
 ```
 
 ✅ **Cycle terminé**
