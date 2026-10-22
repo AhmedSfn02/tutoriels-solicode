@@ -1,0 +1,7 @@
+/* Limiter la largeur du conteneur des articles */
+.conteneur-articles {
+    max-width: 1200px;
+
+    /* Centrer le conteneur horizontalement */
+    margin: 0 auto;
+}
