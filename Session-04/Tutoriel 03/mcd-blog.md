@@ -35,8 +35,8 @@
 - ARTICLE (1,1)
 
 ### Relation 3 : regroupe
-- ARTICLE (1,1)
 - CATEGORIE (0,N)
+- ARTICLE (1,1)
 
 ## 3. Schéma textuel du MCD
 
@@ -45,17 +45,11 @@ VILLE (0,N) ─── habite ─── (1,1) AUTEUR
 
 AUTEUR (0,N) ─── rédige ─── (1,1) ARTICLE
 
-ARTICLE (1,1) ─── regroupe ─── (0,N) CATEGORIE
+CATEGORIE (0,N) ─── regroupe ─── (1,1) ARTICLE
 ```
 
 ## 4. Vérification du modèle
 
 - Les 4 entités sont présentes.
 - Les 3 relations sont correctement définies.
-- Les cardinalités respectent les règles de gestion.
-- Les identifiants sont soulignés dans le MCD.
-- Aucune donnée calculée comme duree_lecture n'est présente.
-
-## Conclusion
-
-Le MCD complet permet de représenter les entités du Blog, leurs attributs, leurs relations et leurs cardinalités. Il constitue la base de la conception de la future base de données.
+- Les
