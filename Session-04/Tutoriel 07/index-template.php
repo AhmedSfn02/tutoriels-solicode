@@ -1,15 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Blog Personnel - Accueil</title>
+    <!-- CSS Organisé pour N1 -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
 
+    <!-- =====================================================
+         MENU (EN-TÊTE)
+    ====================================================== -->
     <header class="en-tete-site">
         <nav class="barre-navigation">
             <a href="public-index.html" class="logo">
@@ -26,6 +31,9 @@
         </nav>
     </header>
 
+    <!-- =====================================================
+         BANNIÈRE (HERO)
+    ====================================================== -->
     <section class="banniere-accueil">
         <h1>
             Mon Blog Personnel :<br>
@@ -42,9 +50,13 @@
         </div>
     </section>
 
+    <!-- =====================================================
+         ARTICLES
+    ====================================================== -->
     <section id="articles" class="section-articles">
         <div class="conteneur-articles">
 
+            <!-- CATÉGORIES -->
             <section class="filtre-categories">
                 <h2>Explorer par thème</h2>
                 <div class="liste-filtres">
@@ -56,6 +68,7 @@
                 </div>
             </section>
 
+            <!-- EN-TÊTE DES ARTICLES -->
             <div class="entete-liste-articles">
                 <div>
                     <h2>Dernières publications</h2>
@@ -64,6 +77,7 @@
                 <a href="public-categorie.html" class="lien-voir-tout">Explorer tout</a>
             </div>
 
+            <!-- CARTES D'ARTICLES -->
             <div class="grille-articles">
                 <?php foreach ($articles as $article): ?>
                     <div class="carte-article">
@@ -82,10 +96,12 @@
                     </div>
                 <?php endforeach; ?>
             </div>
-
         </div>
     </section>
 
+    <!-- =====================================================
+         PIED DE PAGE (FOOTER)
+    ====================================================== -->
     <footer class="pied-de-page">
         <div class="conteneur-pied-de-page">
             <div class="colonne-pied-de-page">
@@ -109,6 +125,6 @@
             <p>&copy; 2026 Mon Blog Personnel.</p>
         </div>
     </footer>
-
 </body>
+
 </html>
