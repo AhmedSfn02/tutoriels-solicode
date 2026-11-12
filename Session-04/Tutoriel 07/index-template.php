@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Blog Personnel - Accueil</title>
-    <link rel="stylesheet" href="dossier-depart/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
@@ -68,7 +68,7 @@
                 <?php foreach ($articles as $article): ?>
                     <div class="carte-article">
                         <a href="article.php?id=<?= $article['id'] ?>" class="carte-image">
-                            <img src="dossier-depart/images/<?= htmlspecialchars($article['image']) ?>" alt="Illustration">
+                            <img src="images/<?= htmlspecialchars($article['image']) ?>" alt="Illustration">
                         </a>
                         <span class="etiquette-categorie"><?= htmlspecialchars($article['categorie_libelle']) ?></span>
                         <div class="carte-contenu">
